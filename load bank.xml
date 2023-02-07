@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/plutus/load bank/load bank.kicad_sch</source>
+    <date>Mon 06 Feb 2023 08:38:23 PM</date>
+    <tool>Eeschema 6.0.11-2627ca5db0~126~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>800W Load Bank</title>
+        <company>N/A</company>
+        <rev>1</rev>
+        <date>2023-01-18</date>
+        <source>load bank.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4055effd-adf7-4219-b434-39a00e6027dd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e41d2a0-1a1e-4a7b-b1d5-d019c718681d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1.5KExxCA</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <libsource lib="Diode" part="1.5KExxCA" description="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b6f4330-bdb8-40df-a620-2777b9dcf025</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f50d974c-299f-47c7-868a-fb13502d3319</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce0fce8-4798-4d2d-afd1-308a7aa6e260</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9de7c98a-6e50-4c5d-bf5f-4e5e589f9114</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54690b03-3bbd-40e7-b36e-cc26e3e1d67b</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c00414f9-299b-46c8-8b76-036004696a68</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>25SH-B-02-TS</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="" part="Conn_01x02_Male_1" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>079d2ce6-77a2-421d-980a-6936e84ffce1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>LHD-03-TS</value>
+      <footprint>Connector_JST:JST_VH_B3P-VH-FB-B_1x03_P3.96mm_Vertical</footprint>
+      <libsource lib="Load_bank" part="LHD-03-TS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>665f79e7-6914-4283-83e2-b64e2061db56</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>EBBA-03-C-SS-BU</value>
+      <footprint>load bank:EURO_BLOCK,_3_POSITION</footprint>
+      <libsource lib="" part="EURO_BLOCK,_3_POSITION_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2ee4147-1770-493c-830d-bd9a4656f786</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>25SH-B-02-TS</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e1360f9-5685-4b03-8ce1-8742b0d1c4d9</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26486a04-7b93-4e5f-9e79-af69e5e0e4d0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98b892af-c689-4dfe-8ead-39062a3abe26</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>696101000002</value>
+      <footprint>696101000002:696101000002</footprint>
+      <fields>
+        <field name="DATASHEET-URL">https://www.we-online.com/catalog/datasheet/696101000002.pdf</field>
+        <field name="IR-UL">18A</field>
+        <field name="IR-VDE">6.3A</field>
+        <field name="MATES">696120004001</field>
+        <field name="PART-NUMBER">696101000002</field>
+        <field name="VALUE">696101000002</field>
+      </fields>
+      <libsource lib="" part="696101000002_1" description=""/>
+      <property name="IR-VDE" value="6.3A"/>
+      <property name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696101000002.pdf"/>
+      <property name="PART-NUMBER" value="696101000002"/>
+      <property name="MATES" value="696120004001"/>
+      <property name="IR-UL" value="18A"/>
+      <property name="VALUE" value="696101000002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>834f3adc-be04-43d7-8c8d-b2e5353b7cd5</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>25SH-B-02-TS</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9be5fb0b-b2b4-4fe0-badc-04e8bd0f3543</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>696101000002</value>
+      <footprint>696101000002:696101000002</footprint>
+      <fields>
+        <field name="DATASHEET-URL">https://www.we-online.com/catalog/datasheet/696101000002.pdf</field>
+        <field name="IR-UL">18A</field>
+        <field name="IR-VDE">6.3A</field>
+        <field name="MATES">696120004001</field>
+        <field name="PART-NUMBER">696101000002</field>
+        <field name="VALUE">696101000002</field>
+      </fields>
+      <libsource lib="" part="696101000002_1" description=""/>
+      <property name="IR-VDE" value="6.3A"/>
+      <property name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/696101000002.pdf"/>
+      <property name="PART-NUMBER" value="696101000002"/>
+      <property name="MATES" value="696120004001"/>
+      <property name="IR-UL" value="18A"/>
+      <property name="VALUE" value="696101000002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>035c2409-c05f-456f-a46f-326fa1367dea</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>25SH-B-02-TS</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e600b1de-14c4-4a65-a487-a6daa13f7ef6</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>EURO_BLOCK,_3_POSITION</value>
+      <footprint>load bank:EURO_BLOCK,_3_POSITION</footprint>
+      <libsource lib="" part="EURO_BLOCK,_3_POSITION_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>889190da-c5a6-4481-a2b5-dd157b28b5af</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>EURO_BLOCK,_3_POSITION</value>
+      <footprint>load bank:EURO_BLOCK,_3_POSITION</footprint>
+      <libsource lib="" part="EURO_BLOCK,_3_POSITION_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68086d8d-a330-44ac-b483-b1209ac5f528</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>J123F1A5VDC.36</value>
+      <footprint>Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A</footprint>
+      <datasheet>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J123F.pdf</datasheet>
+      <libsource lib="" part="J123F1A5VDC.36_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92b6ad87-7e2c-4e08-bd97-24133faaa71e</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>J123F1A5VDC.36</value>
+      <footprint>Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A</footprint>
+      <datasheet>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J123F.pdf</datasheet>
+      <libsource lib="" part="J123F1A5VDC.36_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20374198-e52f-4ab3-a263-3e26df64100c</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>CFM-A225C-018-327-20</value>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce09c436-d44f-4eb5-b2cb-b889861b2945</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>LO10-13B05</value>
+      <libsource lib="Load_bank" part="LO10-13B05" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>840a6cb5-9100-4520-a6e2-8b2125373610</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>KSP14</value>
+      <footprint>load bank:KSP13</footprint>
+      <libsource lib="Device" part="Q_NPN_Darlington_EBC" description="NPN Darlington transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1001a2f3-5913-4449-8003-f097b67ed397</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>35ohm</value>
+      <libsource lib="" part="Chassis_resistor_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>023ba4e1-874d-4f7d-a03e-a2fd595b740c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>142.6K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="model">MFR-25FRF52-143K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="model" value="MFR-25FRF52-143K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17018ea0-e0eb-4c91-b9eb-8c7498ec3efa</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4051a2aa-6544-4b93-84fc-4027ce705d47</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>383e3f13-7ef5-40e4-bb5f-a9184c1b3f29</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f99242fd-298f-4f30-a8d7-bf641f8951b4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TC624VPA</value>
+      <footprint>load bank:DIP-8_300_ELL</footprint>
+      <libsource lib="Load_bank" part="TC624VAT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="load bank.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2c8e8de-8c89-44c5-b19c-d980345cab8a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="696101000002_1">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">696101000002</field>
+        <field name="Footprint">696101000002:696101000002</field>
+        <field name="IR-VDE">6.3A</field>
+        <field name="DATASHEET-URL">https://www.we-online.com/catalog/datasheet/696101000002.pdf</field>
+        <field name="PART-NUMBER">696101000002</field>
+        <field name="MATES">696120004001</field>
+        <field name="IR-UL">18A</field>
+        <field name="VALUE">696101000002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="power_in"/>
+        <pin num="2" name="" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Chassis_resistor_1">
+      <fields>
+        <field name="Reference">R?</field>
+        <field name="Value">Chassis_resistor</field>
+      </fields>
+    </libpart>
+    <libpart lib="" part="Conn_01x02_Male_1">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J11</field>
+        <field name="Value">25SH-B-02-TS</field>
+        <field name="Footprint">Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="unspecified"/>
+        <pin num="2" name="Pin_2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="EURO_BLOCK,_3_POSITION_1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">EURO_BLOCK,_3_POSITION</field>
+        <field name="Footprint">load bank:EURO_BLOCK,_3_POSITION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="EURO_BLOCK,_3_POSITION_2">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">EURO_BLOCK,_3_POSITION</field>
+        <field name="Footprint">load bank:EURO_BLOCK,_3_POSITION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="J123F1A5VDC.36_1">
+      <docs>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J123F.pdf</docs>
+      <fields>
+        <field name="Reference">K1</field>
+        <field name="Value">J123F1A5VDC.36</field>
+        <field name="Footprint">Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A</field>
+        <field name="Datasheet">https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J123F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="87" type="unspecified"/>
+        <pin num="2" name="85" type="unspecified"/>
+        <pin num="3" name="30" type="unspecified"/>
+        <pin num="5" name="86" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_Darlington_EBC">
+      <description>NPN Darlington transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_Darlington_EBC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1.5KExxCA">
+      <description>1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</description>
+      <docs>https://www.vishay.com/docs/88301/15ke.pdf</docs>
+      <footprints>
+        <fp>D?DO?201AE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1.5KExxCA</field>
+        <field name="Footprint">Diode_THT:D_DO-201AE_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88301/15ke.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Load_bank" part="LHD-03-TS">
+      <fields>
+        <field name="Reference">J7</field>
+        <field name="Value">LHD-03-TS</field>
+        <field name="Footprint">Connector_JST:JST_VH_B3P-VH-FB-B_1x03_P3.96mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Load_bank" part="LO10-13B05">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">LO10-13B05</field>
+      </fields>
+    </libpart>
+    <libpart lib="Load_bank" part="TC624VAT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC624VAT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="~OUT" type="output"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TSET" type="input"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Fan">
+      <description>Fan</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Load_bank">
+      <uri>/home/plutus/load bank/Load_Bank.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/usr/share/kicad/symbols//Motor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="unspecified"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/res_1">
+      <node ref="J11" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="K1" pin="1" pinfunction="87" pintype="unspecified"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="unspecified"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="GNDA">
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J12" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="TSET" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="5" pinfunction="86" pintype="unspecified"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="85" pintype="unspecified"/>
+      <node ref="K2" pin="2" pinfunction="85" pintype="unspecified"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K2" pin="5" pinfunction="86" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pintype="power_out"/>
+      <node ref="K1" pin="3" pinfunction="30" pintype="unspecified"/>
+    </net>
+    <net code="13" name="Net-(J9-Pad2)">
+      <node ref="J9" pin="2" pintype="power_out"/>
+      <node ref="K2" pin="3" pinfunction="30" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(J12-Pad1)">
+      <node ref="J12" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="K2" pin="1" pinfunction="87" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="T_CONTROL">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="~OUT" pintype="output"/>
+    </net>
+    <net code="17" name="VAC">
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J7" pin="1" pintype="power_in"/>
+      <node ref="J9" pin="1" pintype="power_in"/>
+    </net>
+    <net code="18" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J11-Pad2)">
+      <node ref="J11" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J12-Pad2)">
+      <node ref="J12" pin="2" pinfunction="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(M1-Pad1)">
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(M1-Pad2)">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
