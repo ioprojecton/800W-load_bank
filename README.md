@@ -14,5 +14,7 @@
 
 ![App Screenshot](https://github.com/ioprojecton/800W-load_bank/blob/main/load%20bank_3dpic.jpg?raw=true)
 
+![App Screenshot](https://github.com/ioprojecton/800W-load_bank/blob/main/load%20bank_3dpic_back.jpg?raw=true)
+
 ![App Screenshot](https://github.com/ioprojecton/800W-load_bank/blob/main/images/schematic.jpg?raw=true)
 
