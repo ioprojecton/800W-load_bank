@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "load bank")(type "KiCad")(uri "/home/plutus/load bank.pretty")(options "")(descr ""))
+  (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/images")(options "")(descr ""))
+)
